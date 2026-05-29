@@ -33,7 +33,7 @@ bazel_dep(
 )
 bazel_dep(
     name = "protobuf",
-    version = "33.4",
+    version = "34.1",
     repo_name = "com_google_protobuf",
 )
 bazel_dep(
@@ -60,11 +60,11 @@ bazel_dep(
     version = "2025-11-05.bcr.1",
     repo_name = "com_googlesource_code_re2",
 )
-bazel_dep(
-    name = "flatbuffers",
-    version = "25.9.23",
-    repo_name = "com_github_google_flatbuffers",
-)
+# bazel_dep(
+#     name = "flatbuffers",
+#     version = "25.9.23",
+#     repo_name = "com_github_google_flatbuffers",
+# )
 bazel_dep(
     name = "cel-spec",
     version = "0.25.1",
